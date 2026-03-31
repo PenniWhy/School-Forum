@@ -1,0 +1,120 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Nov 7, 2025, 3:15:10 AM
+    Author     : thanh
+*/
+/* Toàn bộ trang */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f0f4f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* ==== HEADER ==== */
+div {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 24px;
+    font-size: 15px;
+}
+
+div a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: 0.2s;
+    font-weight: 600;
+}
+
+div a:hover {
+    color: #ffcc00;
+    text-decoration: underline;
+}
+
+/* ==== TIÊU ĐỀ ==== */
+h2 {
+    text-align: center;
+    color: #0056b3;
+    margin-top: 40px;
+}
+
+/* ==== FORM ==== */
+form {
+    width: 400px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 35px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    margin-bottom: 18px;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+    outline: none;
+}
+
+/* ==== NÚT ĐĂNG KÝ ==== */
+button {
+    width: 100%;
+    background: linear-gradient(90deg, #007bff, #0099ff);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #0056b3, #007bff);
+}
+
+/* ==== THÔNG BÁO LỖI ==== */
+p.error-msg {
+    color: #d9534f;
+    background: #ffeaea;
+    border: 1px solid #f5c6cb;
+    padding: 8px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 14px;
+    margin: 15px auto;
+    width: 400px;
+}
+
+/* ==== RESPONSIVE ==== */
+@media (max-width: 480px) {
+    form {
+        width: 90%;
+        padding: 25px;
+    }
+
+    p.error-msg {
+        width: 90%;
+    }
+}

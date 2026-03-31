@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group name="PRJ301">
+            <file>file:/D:/SchoolFr/src/java/controller/DeleteQuestionServlet.java</file>
+            <file>file:/D:/SchoolFr/src/java/dao/UserDAO.java</file>
+            <file>file:/D:/SchoolFr/src/java/controller/AddQuestionServlet.java</file>
+            <file>file:/D:/SchoolFr/src/java/model/Answer.java</file>
+            <file>file:/D:/SchoolFr/src/java/model/User.java</file>
+            <file>file:/D:/SchoolFr/src/java/controller/RegisterServlet.java</file>
+            <file>file:/D:/SchoolFr/src/java/controller/EditQuestionServlet.java</file>
+            <file>file:/D:/SchoolFr/src/java/controller/QuestionDetailServlet.java</file>
+            <file>file:/D:/SchoolFr/web/viewQuestion.jsp</file>
+            <file>file:/D:/SchoolFr/web/questions.jsp</file>
+            <file>file:/D:/SchoolFr/src/java/controller/AddAnswerServlet.java</file>
+            <file>file:/D:/SchoolFr/src/java/model/Question.java</file>
+            <file>file:/D:/SchoolFr/src/java/controller/DeleteAnswerServlet.java</file>
+            <file>file:/D:/SchoolFr/src/java/dao/QuestionDAO.java</file>
+            <file>file:/D:/SchoolFr/web/ask.jsp</file>
+            <file>file:/D:/SchoolFr/src/java/controller/LogoutServlet.java</file>
+            <file>file:/D:/SchoolFr/web/editQuestion.jsp</file>
+            <file>file:/D:/SchoolFr/src/java/dao/AnswerDAO.java</file>
+            <file>file:/D:/SchoolFr/src/java/controller/PasswordUtil.java</file>
+            <file>file:/D:/SchoolFr/src/java/controller/QuestionListServlet.java</file>
+            <file>file:/D:/SchoolFr/src/java/controller/LoginServlet.java</file>
+        </group>
+    </open-files>
+</project-private>

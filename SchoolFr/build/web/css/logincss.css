@@ -1,0 +1,149 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Nov 7, 2025, 3:13:00 AM
+    Author     : thanh
+*/
+/* Đặt font và màu nền chung */
+/* ==== CÀI ĐẶT CHUNG ==== */
+/* ==== CÀI ĐẶT CHUNG ==== */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f0f4f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* ==== HEADER ==== */
+.header {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 24px;
+    font-size: 15px;
+}
+
+/* Liên kết trong header */
+.header a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: 0.2s;
+    font-weight: 600;
+}
+
+.header a:hover {
+    color: #ffcc00;
+    text-decoration: underline;
+}
+
+/* ==== KHUNG CHÍNH ==== */
+.login-container {
+    width: 380px;
+    margin: 80px auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 35px 40px;
+}
+
+/* ==== TIÊU ĐỀ ==== */
+.title {
+    text-align: center;
+    color: #0056b3;
+    margin-bottom: 25px;
+}
+
+/* ==== FORM ==== */
+.login-form .form-group {
+    margin-bottom: 18px;
+}
+
+.login-form label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #333;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.login-form input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0,123,255,0.3);
+    outline: none;
+}
+
+/* ==== NÚT ĐĂNG NHẬP ==== */
+.btn-submit {
+    width: 100%;
+    background: linear-gradient(90deg, #007bff, #0099ff);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-submit:hover {
+    background: linear-gradient(90deg, #0056b3, #007bff);
+}
+
+/* ==== THÔNG BÁO LỖI ==== */
+.error-msg {
+    color: #d9534f;
+    background: #ffeaea;
+    border: 1px solid #f5c6cb;
+    padding: 8px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* ==== LIÊN KẾT ĐĂNG KÝ ==== */
+.register-link {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.register-link a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+/* ==== RESPONSIVE ==== */
+@media (max-width: 480px) {
+    .login-container {
+        width: 90%;
+        padding: 25px;
+    }
+
+    .header {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .header a {
+        display: inline-block;
+        margin: 5px 8px;
+    }
+}
